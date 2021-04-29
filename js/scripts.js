@@ -41,7 +41,7 @@ const clubNamesForeign = ["Peñarol", "Nacional", "River Plate", "Boca Juniors",
 const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgraça", "Caralho", "Porra", "Verme",
 	"Discórdia", "Bumbum", "Otário", "Debilóide", "Rouba", "Caga", "Mijo", "Xixi", "Urina", "Fezes", "Mia Khalifa",
 	"Gorfo", "Cachaça", "Cu", "Corno", "Máfia", "Apito", "Crime", "Assalto", "Pau", "Falência", "Mídia", "Órfão", "Bilau",
-	"Piupiu", "Pênis", "Vagina", "Bunda", "Chupada", "Boquete", "Fio-terra", "Gozo", "Esperma", "Pircoa", "Mamador", "Lambida",
+	"Piupiu", "Pênis", "Vagina", "Bunda", "Chupada", "Boquete", "Fio-terra", "Gozo", "Esperma", "Piroca", "Mamador", "Lambida",
 	"Arrombada", "Diarreia", "Leprosa", "Aidéica", "Bumbumguloso", "Puta", "Satanás", "Demônio"]
 
 // Acronym corruptions (does not lower case the first character)
