@@ -17,7 +17,7 @@ const clubNames = ["Flamengo", "Fluminense", "Vasco", "São Paulo", "Santos", "P
 	"Guarani", "Fortaleza", "Ceará", "Bahia", "Vitória", "Figueirense", "Avaí", "Criciúma", "Juventude",
 	"Brasil de Pelotas", "Coritiba", "Paraná", "Confiança", "Bragantino", "América", "América-RN", "Goiás",
 	"Atlético-GO", "Vila Nova", "Cuiabá", "São Caetano", "Santa Cruz", "Náutico", "Sport Recife", "Paysandu",
-	"Remo", "Atlético Mineiro", "Athétlico Paranaense", "CSA", "CRB"];
+	"Remo", "Atlético Mineiro", "Athétlico Paranaense", "CSA", "CRB", "Sampaio Corrêa", "Moto Club"];
 
 // Club names (Foreign)
 
