@@ -11,10 +11,35 @@ body {
 	
 }
 
-.generator {
+.generator__base {
 	margin-left: auto;
 	margin-right: auto;
-	
+	width: 45rem;
+	height: 4rem;
+	margin-bottom: 2rem;
+	font-size: 200%;
+	text-align: center;
+}
+
+.generator__radio {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.generator__radio--btn {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.generator__radio--label {
+	font-size: 125%;
+	vertical-align: super;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.generator__button {
+	width: 25%;
 }
 
 .container {
@@ -33,14 +58,6 @@ h3 {
 	font-size: 70%;
 }
 
-input {
-	width: 45rem;
-	height: 4rem;
-	margin-bottom: 2rem;
-	font-size: 200%;
-	text-align: center;
-}
-
 button {
 	width: 15rem;
 	height: 4rem;
@@ -48,6 +65,7 @@ button {
 	background-color: #7bb237;
 	color: white;
 	border-radius: 2%;
+	cursor: pointer;
 }
 
 footer {

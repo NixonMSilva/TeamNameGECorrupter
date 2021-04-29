@@ -15,10 +15,18 @@
 <body>
 	<h1>Gerador de Nomes</h1>
 	<h2>A là comentários do GE</h2>
-	<h3>versão 1.2</h3>
+	<h3>versão 1.3</h3>
 	<form class = "generator">
-		<input type = "text" placeholder="Clique no botão para gerar um nome!" id = "result" readonly><br>
-		<button type = "button" onclick = "generateName();">Gerar!</button>
+		<input class = "generator__base" type = "text" placeholder="Clique no botão para gerar um nome!" id = "result" readonly><br>
+		<label>Gerar também de times fora do continente americano?</label>
+		<div class = "generator__radio">
+			<input class = "generator__radio--btn" type = "radio" id = "allow" name = "option" onchange = "changeAllowEuropeanClubs();" value = true checked>
+			<label class = "generator__radio--label" for = "allow">Sim</label>
+			<input class = "generator__radio--btn" type = "radio" id = "disallow" name = "option" onchange = "changeDisallowEuropeanClubs();" value = false>
+			<label class = "generator__radio--label" for = "disallow">Não</label>
+		</div> <!-- .generator__radio -->	
+		<br>
+		<button class = "generator__button" type = "button" onclick = "generateName();">Gerar!</button>
 	</form> <!-- .generator -->
 	<div class = "container">
 		<footer>@CazadorImperial - 2021</footer>
