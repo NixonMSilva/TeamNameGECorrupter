@@ -56,7 +56,7 @@ const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgr
 
 // Corruptions at the start of the name (prefix)
 
-const corruptionsLeft = ["VAR", "Putref", "Desgraç", "Caralh", "Mij", "Caga", "Roub", "Verm", "Porr", "Bost", "Cocô", "Merd", 
+const corruptionsLeft = ["VAR", "Putref", "Desgraç", "Caralh", "Mij", "Cag", "Roub", "Verm", "Porr", "Bost", "Cocô", "Merd", 
 	"Apit", "Crim", "Assalt"]
 
 // Corruptions at the end of the name (suffix)
