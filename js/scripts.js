@@ -38,7 +38,7 @@ const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgr
 	"Discórdia", "Bumbum", "Otário", "Debilóide", "Rouba", "Caga", "Mijo", "Xixi", "Urina", "Fezes", "Mia Khalifa",
 	"Gorfo", "Cachaça", "Cu", "Corno", "Máfia", "Apito", "Crime", "Assalto", "Pau", "Falência", "Mídia", "Órfão", "Bilau",
 	"Piupiu", "Pênis", "Vagina", "Bunda", "Chupada", "Boquete", "Fio-terra", "Gozo", "Esperma", "Pircoa", "Mamador", "Lambida",
-	"Arrombada", "Diarreia", "Leprosa", "Aidéica", "Bumbumguloso", "Puta", "Satanás"]
+	"Arrombada", "Diarreia", "Leprosa", "Aidéica", "Bumbumguloso", "Puta", "Satanás", "Demônio"]
 
 // Acronym corruptions (does not lower case the first character)
 
@@ -62,7 +62,7 @@ const generateName = () => {
 	if (allowNonAmericanClubs)
 	{
 		namePool = clubNames;
-		namePool.concat(clubNamesForeign);
+		namePool = namePool.concat(clubNamesForeign);
 	}
 	else
 		namePool = clubNames;
@@ -83,6 +83,7 @@ const generateName = () => {
 			name_1 = getCorruptionName(corruptionPool);
 			if (canChangeToLowerCase)
 				name_1 = changeToLowerCase(name_1);
+			console.log()
 		break;
 		case 2:	// Left: Corruption | Right: Team name
 			name_0 = getCorruptionName(corruptionPool);
@@ -148,13 +149,16 @@ const parseVowelConsonant = (string, isFirst) => {
 const cropTeamName = (string, isLeft) => {
 	// Allow at least 3 characters in the team name
 	cropPoint = 2 + generateRandomNumber(string.length - 3);
-
+	result = ""
 	// isLeft checks whether to trim from right to left (true)
 	// or left to right (false)
 	if (isLeft)
-		return string.slice(0, cropPoint - 1);
+		result = string.slice(0, cropPoint - 1);
 	else
-		return string.slice(cropPoint);
+		result = string.slice(cropPoint);
+	if (result.length == 0)
+		return string;
+	return result;
 }
 
 const changeToLowerCase = (string) => {
