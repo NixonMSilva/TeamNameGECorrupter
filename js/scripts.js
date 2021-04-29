@@ -5,16 +5,18 @@ const noMethods = 4;
 const clubNamesLeft = ["Fla", "Flu", "São", "San", "Pal", "Cor", "Athleti", "Atléti", "Cru", "Bota", 
 	"Vas", "Real ", "Barce", "Manchester ", "Juve", "Inter", "Gre", "Lazi", "Porto", "Benfi", "Bayern ",
 	"Chape", "Boca ", "River ", "San ", "Peña", "Liver", "Chel", "Totten", "Mazem", "Raja ", "Tigre",
-	"Bangu", "Forta", "Cea", "Vit", "Bah", "Ata", "Figuei", "Ava", "Crici", "Cuia", "Corin"]
+	"Bangu", "Forta", "Cea", "Vit", "Bah", "Ata", "Figuei", "Ava", "Crici", "Cuia", "Corin", "Náuti",
+	"Santa", "Spor", "Améri", "Coriti", "Ponte ", "Guara"]
 
 const clubNamesRightConsonant = ["mengo", "minense", "tos", "meiras", "zeiro", "fogo", "lona", "ca", 
 	"coense", "rol", "pool", "sea", "ham", "be", "entude", "rá", "leza", "ia", "ória", "nacional", "mio",
-	"lanta", "rense", "bá"]
+	"lanta", "rense", "bá", "ni"]
 
-const clubNamesRightVowel = ["inthians", "entude", "ória", "úma", "í", "asco", "afogo"]
+const clubNamesRightVowel = ["inthians", "entude", "ória", "úma", "í", "asco", "afogo", "itiba", "áutico"]
 
 const clubNamesComposite = [" United", " Madrid", " City", " de Munique", " Casablanca", " Juniors", " Plate",
-	" Lorenzo", " Paulo", "-MG", "-PR", "-RJ", "-RN", "-GO", " Dortmund", " Zagreb", " Zvezda", " de Madrid"]
+	" Lorenzo", " Paulo", " Mineiro", " Paranaense", " do Rio", " de Natal", " Goianiense", " Dortmund", " Zagreb", 
+	" Zvezda", " de Madrid", " Paraibano", " de Alagoinhas" "-MG", "-RN", "-PR", "-RJ", "-PB", "-GO", " Cruz"]
 
 const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgraça", "Caralho", "Porra", "Verme",
 	"Discórdia", "Bumbum", "Otário", "Debilóide", "Rouba", "VAR", "Caga", "Mijo", "Xixi", "Urina", "Fezes", "Mia Khalifa",
@@ -22,7 +24,8 @@ const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgr
 
 const corruptionsLeft = ["VAR", "Putref", "Desgraç", "Caralh", "Mij", "Cag", "Roub", "Verm", "Porr", "Bost", "Coc", "Merd" ]
 
-const corruptionsRight = ["bumbumguloso", "falência"]
+const corruptionsRight = ["bumbumguloso", "falência", "puta", "mídia", "órfão", "bilau", "piupiu", "pênis", "vagina",
+	"bunda" "chupada", "boquete", "fio-terra"]
 
 const generateName = () => {
 	var corruptedName = "", seed_0 = generateRandomNumber(), seed_1 = generateRandomNumber();
