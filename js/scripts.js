@@ -33,7 +33,7 @@ const clubNamesForeign = ["Peñarol", "Nacional", "River Plate", "Boca Juniors",
 	"Besiktas", "Fenerbahçe", "Galatasaray", "CSKA Moscou", "Zenit São Petersburgo", "Lokomotiv Moscou", "Ajax", "Feyenoord", 
 	"PSV Eindhoven", "Club Brugge", "Young Boys", "Legia Varsóvia", "Shaktar Donetsk", "Mazembe", "Raja Casablanca", "Al-Ahly",
 	"Al-Hilal", "Kashima Antlers", "Gamba Osaka", "Yokohama F-Marinos", "Ulsan Hyundai", "Shanghai SIPG", "Guangzhou Evergrande",
-	"Seattle Sounders", "Atalanta United", "Toronto", "Los Angeles Galaxy", "Tigres", "América", "Necaxa", "Monterrey",
+	"Seattle Sounders", "Montréal Impact", "Toronto", "Los Angeles Galaxy", "Tigres", "América", "Necaxa", "Monterrey",
 	"Independiente Del Valle", "EMELEC", "Colo-Colo"]
 
 // Generic corruptions (can be applied on any side)
