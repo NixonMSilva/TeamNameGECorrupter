@@ -16,7 +16,7 @@ const clubNamesRightVowel = ["inthians", "entude", "ória", "úma", "í", "asco"
 
 const clubNamesComposite = [" United", " Madrid", " City", " de Munique", " Casablanca", " Juniors", " Plate",
 	" Lorenzo", " Paulo", " Mineiro", " Paranaense", " do Rio", " de Natal", " Goianiense", " Dortmund", " Zagreb", 
-	" Zvezda", " de Madrid", " Paraibano", " de Alagoinhas" "-MG", "-RN", "-PR", "-RJ", "-PB", "-GO", " Cruz"]
+	" Zvezda", " de Madrid", " Paraibano", " de Alagoinhas", "-MG", "-RN", "-PR", "-RJ", "-PB", "-GO", " Cruz"]
 
 const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgraça", "Caralho", "Porra", "Verme",
 	"Discórdia", "Bumbum", "Otário", "Debilóide", "Rouba", "VAR", "Caga", "Mijo", "Xixi", "Urina", "Fezes", "Mia Khalifa",
@@ -25,7 +25,7 @@ const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgr
 const corruptionsLeft = ["VAR", "Putref", "Desgraç", "Caralh", "Mij", "Cag", "Roub", "Verm", "Porr", "Bost", "Coc", "Merd" ]
 
 const corruptionsRight = ["bumbumguloso", "falência", "puta", "mídia", "órfão", "bilau", "piupiu", "pênis", "vagina",
-	"bunda" "chupada", "boquete", "fio-terra"]
+	"bunda", "chupada", "boquete", "fio-terra"]
 
 const generateName = () => {
 	var corruptedName = "", seed_0 = generateRandomNumber(), seed_1 = generateRandomNumber();
