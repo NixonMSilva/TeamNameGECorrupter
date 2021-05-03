@@ -42,11 +42,11 @@ const corruptionsGeneric = ["Merda", "Cocô", "Lixo", "Bosta", "Putrefa", "Desgr
 	"Discórdia", "Bumbum", "Otário", "Debilóide", "Rouba", "Caga", "Mijo", "Xixi", "Urina", "Fezes", "Mia Khalifa",
 	"Gorfo", "Cachaça", "Cu", "Corno", "Máfia", "Apito", "Crime", "Assalto", "Pau", "Falência", "Mídia", "Órfão", "Bilau",
 	"Piupiu", "Pênis", "Vagina", "Bunda", "Chupada", "Boquete", "Fio-terra", "Gozo", "Esperma", "Piroca", "Mamador", "Lambida",
-	"Arrombada", "Diarreia", "Leprosa", "Aidéica", "Bumbumguloso", "Puta", "Satanás", "Demônio"]
+	"Arrombada", "Diarreia", "Leprosa", "Aidéica", "Bumbumguloso", "Puta", "Satanás", "Demônio", "Estrume", "Esgoto"]
 
 // Acronym corruptions (does not lower case the first character)
 
-const corruptionsAcronyms = ["VAR", "PCC", "AIDS", "HIV", "COVID", "FDP", ""]
+const corruptionsAcronyms = ["VAR", "PCC", "AIDS", "HIV", "COVID", "FDP", "PNC"]
 
 const generateName = () => {
 
@@ -62,14 +62,14 @@ const generateName = () => {
 	// Check to see if the corruption can get lowecased (disabled for acronyms)
 	var canChangeToLowerCase = true;
 
+	// Intialize the name pool with club names from Brazil
+	namePool = clubNames;
+
 	// Check whether to add or not foreign club names to the generator pool
 	if (allowNonAmericanClubs)
 	{
-		namePool = clubNames;
 		namePool = namePool.concat(clubNamesForeign);
 	}
-	else
-		namePool = clubNames;
 
 	// Check which type of corruption to pick
 	if (pickCorruptionType <= 10)
